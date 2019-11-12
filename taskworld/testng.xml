@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Basic">
+  <classes>
+ 	 <class name="com.taskworld.Utilities.Driver_Setup"/>
+     <class name="com.taskworld.Tests.Login_Page_Tests"/>
+     <class name="com.taskworld.Tests.CreateNewProject_Tests"/>
+     <class name="com.taskworld.Tests.CreateNewTasklist_Tests"/>
+     <class name="com.taskworld.Tests.CreateNewTask_Tests"/>
+     <class name="com.taskworld.Tests.CompleteOpenTask_Tests"/>
+   </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

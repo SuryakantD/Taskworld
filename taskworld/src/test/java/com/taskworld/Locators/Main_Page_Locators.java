@@ -63,14 +63,15 @@ public static String expand_open_task_details() {
 	return expand_task_details;
 
 	}
-public static String close_open_task_details() {
-	String close_open_task_details ="//div[@class='tw-kanban-item tw-tasklist__kanban-item']//div[@class='tw-task-header__checkbox']/div";
-	return close_open_task_details;
-
-	}
 public static String select_checkbox_open_task() {
-	String select_checkbox_open_task ="//div[@class='tw-task-header__checkbox']/div";
+	String select_checkbox_open_task ="//div[@class='tw-kanban-item tw-tasklist__kanban-item']//div[@class='tw-task-header__checkbox']/div";
 	return select_checkbox_open_task;
 
 	}
+public static String close_open_task_details() {
+	String close_open_task_details ="//div[@class='tw-click-area tw-floating-panel-desktop__close ax-floating-panel-close']/i";
+	return close_open_task_details;
+
+	}
+
 }

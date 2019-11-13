@@ -1,18 +1,15 @@
 # Taskworld- QA Assignment
 
 # Installation
-
-Take the clone or download project Taskworld in .zip file.
-
-Import the project into your Eclipse IDE.
-
-Make sure, TestNG is installed as plugin into your Eclipse.
+    -Take the clone or download project Taskworld in .zip file
+    -Import the project into your Eclipse IDE.
+    -Import the project into your Eclipse IDE.
+  
 
 # How to install TestNG in Eclipse
-
-  - Open Eclipse and goto Help-> Install New Software -> Click on Add.
-  - Add name as TestNG and location as http://beust.com/eclipse
-  - Select TestNG checkbox and install it and restart Eclipse IDE.
+    - Open Eclipse and goto Help-> Install New Software -> Click on Add.
+    - Add name as TestNG and location as http://beust.com/eclipse
+    - Select TestNG checkbox and install it and restart Eclipse IDE.
   
   # Update Maven dependencies
     - Right click on pm.xml -> Maven -> Update Project
@@ -26,4 +23,4 @@ Make sure, TestNG is installed as plugin into your Eclipse.
     - System.setProperty("webdriver.chrome.driver", Constants.driverPath+ "chromedriver.exe");
 
 # How to execute Taskworld automation suite
-  - Right click on testng.xml file and run as TestNG Suite
+    - Right click on testng.xml file and run as TestNG Suite

@@ -8,9 +8,7 @@
 
 # Installation
     -Take the clone or download project Taskworld in .zip file
-    -Import the project into your Eclipse IDE.
-    -Import the project into your Eclipse IDE.
-  
+    -Import the project into your Eclipse IDE.  
 
 # How to install TestNG in Eclipse
     - Open Eclipse and goto Help-> Install New Software -> Click on Add.

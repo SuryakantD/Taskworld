@@ -12,7 +12,7 @@
     - Select TestNG checkbox and install it and restart Eclipse IDE.
   
   # Update Maven dependencies
-    - Right click on pm.xml -> Maven -> Update Project
+    - Right click on pom.xml -> Maven -> Update Project
   
 # How to Run on Mac- Chrome
     - Open Driver_Setup.java file and make sure Chrome driver looks similar to below

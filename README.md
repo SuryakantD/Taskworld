@@ -15,11 +15,13 @@
     - Right click on pom.xml -> Maven -> Update Project
   
 # How to Run on Mac- Chrome
-    - Open Driver_Setup.java file and make sure Chrome driver looks similar to below
+   - Open Driver_Setup.java file and make sure Chrome driver looks similar to below
+   
     - System.setProperty("webdriver.chrome.driver", Constants.driverPath+ "chromedriver");
 
 # How to Run on Windows- Chrome
-    - Open Driver_Setup.java file and make sure Chrome driver looks similar to below
+   -Open Driver_Setup.java file and make sure Chrome driver looks similar to below
+    
     - System.setProperty("webdriver.chrome.driver", Constants.driverPath+ "chromedriver.exe");
 
 # How to execute Taskworld automation suite

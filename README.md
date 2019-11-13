@@ -1,5 +1,11 @@
 # Taskworld- QA Assignment
 
+# Pre-requisite
+    - Eclipse IDE
+    - Maven
+    -TestNG
+    - JDK
+
 # Installation
     -Take the clone or download project Taskworld in .zip file
     -Import the project into your Eclipse IDE.

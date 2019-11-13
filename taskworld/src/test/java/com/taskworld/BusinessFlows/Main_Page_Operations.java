@@ -33,24 +33,21 @@ public class Main_Page_Operations extends Driver_Setup{
 		//driver.findElement(By.xpath(Main_Page_Locators.select_new_project())).click();  // Click on project from dashboard
 		driver.findElement(By.xpath(Main_Page_Locators.tasklist_expand())).click(); // click on + icon for TaskList
 		driver.findElement(By.xpath(Main_Page_Locators.add_task_name_input_field())).sendKeys(Constants.taskName);
-		Thread.sleep(5000);
 		driver.findElement(By.xpath(Main_Page_Locators.tasklist_create_button())).click(); // click on Create button
-		Thread.sleep(5000);
 		driver.findElement(By.xpath(Main_Page_Locators.expand_open_task_details())).click(); // open task details page
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		driver.findElement(By.xpath(Main_Page_Locators.close_open_task_details())).click(); // close open task details page
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 	}
 	
 	public void completeOpenTask() throws InterruptedException {
 				
 		driver.findElement(By.xpath(Main_Page_Locators.select_checkbox_open_task())).click(); // Close task by clicking checkbox
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		//driver.findElement(By.xpath("//div[@data-status='hidden']/span")).click(); //expanding hidden
 		driver.findElement(By.xpath(Main_Page_Locators.expand_open_task_details())).click(); // open closed task details page
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		driver.findElement(By.xpath(Main_Page_Locators.close_open_task_details())).click(); // closed task details page
-		Thread.sleep(5000);
 	}
 	
 }

@@ -64,7 +64,7 @@ public static String expand_open_task_details() {
 
 	}
 public static String close_open_task_details() {
-	String close_open_task_details ="//*[@id='react']/div/section/div[1]/div/div/div[2]/div/div/section/div/div/div[1]/i";
+	String close_open_task_details ="//div[@class='tw-kanban-item tw-tasklist__kanban-item']//div[@class='tw-task-header__checkbox']/div";
 	return close_open_task_details;
 
 	}
